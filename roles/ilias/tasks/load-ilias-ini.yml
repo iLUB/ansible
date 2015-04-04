@@ -1,0 +1,4 @@
+- name: Copy ilias.ini.php to new virtual host
+  template:
+    src=ilias.ini.php
+    dest=/{{ document_root }}/ilias.ini.php

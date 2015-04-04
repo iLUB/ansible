@@ -1,0 +1,30 @@
+##Required Tools
+- name: install xsl
+  apt: name=php5-xsl state=present
+- name: install gd
+  apt: name=php5-gd state=present
+- name: install imagemagick
+  apt: name=imagemagick state=present
+- name: install zip
+  apt: name=zip state=present
+- name: install unzip
+  apt: name=unzip state=present
+
+##Additional Tools
+#For Upuntu 14.04 ffmpeg has been removed from the official repos
+- name: add repo for ffmpeg
+  apt_repository: repo='ppa:mc3man/trusty-media' state=present
+- name: install ffmpeg
+  #For Upuntu 14.04 ffmpeg has been removed from the official repos
+  apt: name=ffmpeg state=present
+- name: install ghostscript
+  apt: name=ghostscript state=present
+  notify:
+  - reload apache ghostscript
+- name: install java
+  apt: name=openjdk-7-jre  state=present
+- name: install htmldoc
+  apt: name=htmldoc  state=present
+  notify:
+  - reload apache
+

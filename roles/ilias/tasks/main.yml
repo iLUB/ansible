@@ -1,0 +1,9 @@
+---
+- include: directories.yml
+#Currently not possible in vagrant sync folder
+- include: permissions.yml
+- include: tools.yml
+- include: load-db.yml
+- include: load-ilias-ini.yml
+- include: load-client-ini.yml
+

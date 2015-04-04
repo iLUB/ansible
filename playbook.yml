@@ -3,6 +3,16 @@
   sudo: true
   vars:
     document_root: /vagrant/www
+    #always set client name to ilias3_unibe to unsure capability with db imports
+    default_client: ilias3-unibe
+    ilias_name: ilias-test #Directory, where lib is placed into
+    mysql_root_password: test1234
+    ilias_db_name: ilias50_innodb_empty
+    setup_hash: 16d7a4fca7442dda3ad93c9a726597e4 #password: test1234
+    log_dir: "/var/log/ilias"
+    logfile_name: "ilias.log"
+    ilias_skin: "default"
+    ilias_style: "delos"
   pre_tasks:
     - name: update apt cache
       apt: update_cache=yes
@@ -10,3 +20,4 @@
     - system
     - webserver
     - database
+    - ilias

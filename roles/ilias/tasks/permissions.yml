@@ -1,0 +1,10 @@
+---
+- name: (currently not executed) set permissions and acl in docment root
+  shell: echo "done"
+  #Um die Rechte für einzelne Ordner oder den ganzen Webroot zu ändern können folgende Befehle in der Bash ausgeführt werden:
+  #shell: find {{document_root}} ! -path "{{document_root}}/lib"  -exec sudo chown root:ilub {} \;  -exec sudo setfacl -Rdm g:ilub:rwx {} \;
+  #Beachte, dass dieses find Statement mehrere Befehle ausführt. Der 1. aktualisiert die Besitzer und Gruppen aller Dateien und Ordner. Der 2. Befehl setzt die Rechte der iLUB Gruppe so, dass neue Dateien mit Gruppen-Schreibrechten erstellt werden.
+  #shell: find {{document_root}} ! -path "{{document_root}}/lib" -type d -exec sudo chmod 775 {} \; -exec sudo chmod g+s {} \;
+  #Diese Befehle aktualisieren die Zugriffsrechte auf die Ordner und setzen das GID Flag, so dass neu erstellte Dateien die Gruppen ID "ilub" erben, statt die Default Gruppe des Benutzer zu übernehmen.
+  #shell: find {{document_root}} ! -path "{{document_root}}/lib" -type f -exec sudo chmod 664 {} \;
+  #Der letzte Befehl setzt die Zugriffsrechte von Dateien.

@@ -1,0 +1,16 @@
+---
+- name: copy db-dump to server
+  copy: src=../../../databases/{{ ilias_db_name }}.sql dest=/tmp
+- name: create db
+  mysql_db:
+    name={{ ilias_db_name }}
+    login_user=root
+    login_password={{ mysql_root_password }}
+    state=present
+- name: load db-dump into database
+  mysql_db:
+    name={{ ilias_db_name }}
+    login_user=root
+    login_password={{ mysql_root_password }}
+    state=import
+    target=/tmp/{{ ilias_db_name }}.sql

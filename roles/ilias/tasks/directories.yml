@@ -1,0 +1,56 @@
+- name: create log directory
+  file:
+    path={{log_dir}}/
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client lib directory-path
+  file:
+    path=/{{ilias_name}}/{{default_client}}
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client lib/mail
+  file:
+    path=/{{ilias_name}}/{{default_client}}/mail
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client data
+  file:
+    path=/{{document_root}}/data/{{default_client}}
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client data/css
+  file:
+    path=/{{document_root}}/data/{{default_client}}/css
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client data/lm_data
+  file:
+    path=/{{document_root}}/data/{{default_client}}/lm_data
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client data/mobs
+  file:
+    path=/{{document_root}}/data/{{default_client}}/mobs
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+- name: create ilias-client data/usr_images
+  file:
+    path=/{{document_root}}/data/{{default_client}}/usr_images
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774

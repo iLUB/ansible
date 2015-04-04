@@ -1,0 +1,4 @@
+- name: Copy ilias.ini.php to new virtual host
+  template:
+    src=client.ini.php
+    dest=/{{document_root}}/data/{{default_client}}/client.ini.php

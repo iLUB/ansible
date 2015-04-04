@@ -1,0 +1,10 @@
+---
+- name: Create group ilub
+  group:
+   name=ilub
+   state=present
+- name: Add user vagrant to group ilub
+  user:
+    name=vagrant
+    append=yes
+    groups=ilub
