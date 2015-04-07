@@ -7,7 +7,7 @@
     src=virtual-host.conf.j2
     dest=/etc/apache2/sites-available/vagrant.conf
   notify:
-    - reload apache
+    - restart apache
 
 - name: Remove default virtual host
   file:
