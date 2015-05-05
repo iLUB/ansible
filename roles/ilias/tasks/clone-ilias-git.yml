@@ -1,0 +1,4 @@
+- name: Clone ilias rep recursively
+  git: repo={{ilias_git_repo}}
+    dest={{document_root}}
+    version={{ilias_git_version}}

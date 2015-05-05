@@ -1,0 +1,3 @@
+[submodule "www"]
+	path = www
+	url = git@ilublx3.unibe.ch:ilias/ilias.git

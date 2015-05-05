@@ -1,3 +1,4 @@
 ---
 - include: apache.yml
 - include: php.yml
+- include: tools.yml

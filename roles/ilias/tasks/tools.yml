@@ -11,7 +11,7 @@
   apt: name=unzip state=present
 
 ##Additional Tools
-#For Upuntu 14.04 ffmpeg has been removed from the official repos
+#For Upuntu 14.04 ffmpeg has been removed from the official repos, adding repos tends to be slow, uncomment if time is an issue
 - name: add repo for ffmpeg
   apt_repository: repo='ppa:mc3man/trusty-media' state=present
 - name: install ffmpeg
