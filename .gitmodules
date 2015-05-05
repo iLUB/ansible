@@ -5,6 +5,3 @@
 
 
 
-[submodule "example"]
-	path = example
-	url = git@ilublx3.unibe.ch:ilias/example.git
