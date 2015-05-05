@@ -2,6 +2,9 @@
 	path = www
 	url = git@ilublx3.unibe.ch:ilias/ilias.git
 
+
+
+
 [submodule "example"]
-    path = example
-    url = git@ilublx3.unibe.ch:ilias/example.git
+	path = example
+	url = git@ilublx3.unibe.ch:ilias/example.git
