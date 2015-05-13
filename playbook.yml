@@ -3,7 +3,7 @@
   sudo: true
   vars:
     document_root: /vagrant/www
-    #always set client name to ilias3_unibe to unsure capability with db imports
+    #always set client name to ilias3_unibe to ensure capability with db imports
     default_client: ilias3-unibe
     ilias_name: ilias-test #Directory, where lib is placed into
     mysql_root_password: test1234

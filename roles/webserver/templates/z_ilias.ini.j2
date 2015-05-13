@@ -1,0 +1,22 @@
+;Test
+safe_mode = off
+
+;Running
+error_reporting = E_ALL & ~E_NOTICE
+display_errors = Off
+html_errors = On
+
+
+max_execution_time = 3600
+max_input_time = 3600
+memory_limit = 8G
+post_max_size = 400M
+upload_max_filesize = 400M
+
+session.gc_maxlifetime = 3600
+session.cookie_secure = On
+session.cookie_httponly = On
+
+suhosin.request.max_varname_length = 128
+suhosin.get.max_name_length = 128
+suhosin.cookie.max_name_length = 128

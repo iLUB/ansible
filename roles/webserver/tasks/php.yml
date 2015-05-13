@@ -2,4 +2,33 @@
 - name: install php
   apt: name=php5 state=present
 
+- name: copy z_ilias.ini into mods-available
+  template:
+    src=z_ilias.ini.j2
+    dest=/etc/php5/mods-available/z_ilias.ini
+  notify:
+    - reload apache
+
+- name: copy z_performance_ilias.ini.j2 into mods-available
+  template:
+    src=z_performance_ilias.ini.j2
+    dest=/etc/php5/mods-available/z_performance_ilias.ini
+  notify:
+    - reload apache
+
+- name: make a symlink to z_ilias.ini
+  file:
+    src=/etc/php5/mods-available/z_ilias.ini
+    dest=/etc/php5/apache2/conf.d/z_ilias.ini
+    state=link
+  notify:
+    - restart apache
+
+- name: make a symlink to z_performance_ilias.ini
+  file:
+    src=/etc/php5/mods-available/z_performance_ilias.ini
+    dest=/etc/php5/apache2/conf.d/z_performance_ilias.ini
+    state=link
+  notify:
+    - restart apache
 

@@ -1,5 +1,5 @@
 ---
-- name: (currently not executed) set permissions and acl in docment root
+- name: (currently not executed) set permissions and acl in document root
   shell: echo "done"
   #Um die Rechte für einzelne Ordner oder den ganzen Webroot zu ändern können folgende Befehle in der Bash ausgeführt werden:
   #shell: find {{document_root}} ! -path "{{document_root}}/lib"  -exec sudo chown root:ilub {} \;  -exec sudo setfacl -Rdm g:ilub:rwx {} \;
