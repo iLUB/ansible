@@ -1,0 +1,15 @@
+## Required Tools
+- name: install gzip
+  apt: name=gzip state=present
+- name: install git
+  apt: name=git state=present
+- name: install curl
+  apt: name=curl state=present
+- name: install python
+  apt: name=python state=present
+- name: install libssl-dev
+  apt: name=libssl-dev state=present
+- name: install pkg-config
+  apt: name=pkg-config state=present
+- name: install build-essential
+  apt: name=build-essential

@@ -1,0 +1,3 @@
+## Git Checkout of Etherpad
+- name: clone ehterpad repo
+  git: repo={{ etherpad_git_repo }} dest={{ etherpad_destination }} clone=yes accept_hostkey=true
