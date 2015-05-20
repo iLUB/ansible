@@ -1,0 +1,12 @@
+---
+- name: Create group etherpad-lite
+  group:
+   name=etherpad-lite
+   state=present
+- name: Add user etherpad-lite to group etherpad-lite
+  user:
+    name=etherpad-lite
+    append=yes
+    groups=etherpad-lite
+- name: Create log directory etherpad
+  file: path=/var/log/etherpad-lite state=directory owner=etherpad-lite group=etherpad-lite mode=0775

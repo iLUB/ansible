@@ -1,0 +1,7 @@
+---
+- name: copy ini file from template
+  template:
+    src=etherpad-lite.j2
+    dest=/etc/init.d/etherpad-lite
+- name: chmod 755 ini file etherpad-lite
+  file: path=/etc/init.d/etherpad-lite mode=0755

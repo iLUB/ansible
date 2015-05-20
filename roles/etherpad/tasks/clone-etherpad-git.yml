@@ -1,3 +1,5 @@
 ## Git Checkout of Etherpad
 - name: clone etherpad repo
   git: repo={{ etherpad_git_repo }} dest={{ etherpad_destination }} accept_hostkey=true
+- name: chown 775 etherpad-lite
+  file: path={{ etherpad_destination }} owner=etherpad-lite group=etherpad-lite mode=0775

@@ -1,4 +1,6 @@
 ---
+- include: groups.yml
+- include: create_ini_file.yml
 - include: tools.yml
 - include: clone-etherpad-git.yml
 - include: load_pad_js_example.yml
