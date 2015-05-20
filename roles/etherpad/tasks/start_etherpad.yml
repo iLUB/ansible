@@ -1,0 +1,5 @@
+---
+- name: enable update-rc.d
+  action: shell update-rc.d etherpad-lite defaults
+- name: start etherpad-lite
+  service: name=etherpad-lite state=started

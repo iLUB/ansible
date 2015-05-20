@@ -15,7 +15,7 @@
   apt: name=build-essential
 
 ## can be commented out while developing
-- name: fetch node.js from source
-  action: shell curl -sL https://deb.nodesource.com/setup | sudo bash -
-- name: install nodejs
-  apt: name=nodejs state=present
+##- name: fetch node.js from source
+##  action: shell curl -sL https://deb.nodesource.com/setup | sudo bash -
+##- name: install nodejs
+##  apt: name=nodejs state=present
