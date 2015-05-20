@@ -1,3 +1,4 @@
 ---
 - include: tools.yml
 - include: clone-etherpad-git.yml
+- include: load_pad_js_example.yml

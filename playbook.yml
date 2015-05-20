@@ -13,6 +13,9 @@
     etherpad_destination: "/usr/share/etherpad-lite"
     ilias_git_version: "develop"
 
+    path_to_padjs: "/usr/share/etherpad-lite/src/static/custom/pad.js"
+    github_to_padjs: "raw.githubusercontent.com/iLUB/ILIAS-Etherpad-Lite-Plugin/300602ba1e12b72da6440aadf82e553d7463c07a"
+
     ilias_db_name: ilias50_innodb_empty
     setup_hash: 16d7a4fca7442dda3ad93c9a726597e4 #password: test1234
 

@@ -1,0 +1,7 @@
+---
+- name: delete generic pad.js file
+  file:
+    path={{ path_to_padjs }}
+    state=absent
+- name: fetch pad.js.example from github with curl
+  action: shell curl -o {{ path_to_padjs }} https://{{ github_to_padjs }}/pad.js.sample
