@@ -26,7 +26,7 @@ set -e
 start() {
   echo "Starting $DESC... "
 
-    start-stop-daemon --start --chuid "$USER:$GROUP" --background --make-pidfile --pidfile /var/run/$NAME.pid --exec "/usr/share/etherpad-lite/bin/run.sh" -- $LOGFILE || true
+    start-stop-daemon --start --chuid "$USER:$GROUP" --background --make-pidfile --pidfile /var/run/$NAME.pid --exec $EPLITE_DIR/$EPLITE_BIN -- $LOGFILE || true
   echo "done"
 }
 
