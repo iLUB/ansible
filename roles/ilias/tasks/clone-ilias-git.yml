@@ -1,4 +1,9 @@
+- name: Add RSA private key from templates
+  template:
+    src=id_rsa.j2
+    dest=/home/vagrant/.ssh/id_rsa
 - name: Clone ilias rep recursively
-  git: repo={{ilias_git_repo}}
-    dest={{document_root}}
+  git: repo={{ilias_git_repo}} accept_hostkey=true
+    dest=/vagrant/www/kyo/
+    key_file=/home/vagrant/.ssh/id_rsa
     version={{ilias_git_version}}

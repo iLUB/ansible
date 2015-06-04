@@ -1,6 +1,6 @@
 ---
 - include: directories.yml
-#- include: clone-ilias-git.yml currently done via git submodule
+- include: clone-ilias-git.yml #currently done via git submodule
 #Currently not possible in vagrant sync folder
 - include: permissions.yml
 - include: tools.yml

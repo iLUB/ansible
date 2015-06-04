@@ -8,7 +8,7 @@
     ilias_name: ilias-test #Directory, where lib is placed into
     mysql_root_password: test1234
 
-    ilias_git_repo: "ssh://git@ilublx3.unibe.ch:ilias/ilias.git"
+    ilias_git_repo: "git@ilublx3.unibe.ch:ilias/ilias.git"
     etherpad_git_repo: "git://github.com/ether/etherpad-lite.git"
     etherpad_destination: "/usr/share/etherpad-lite"
     ilias_git_version: "develop"
@@ -25,9 +25,9 @@
     log_dir: "/var/log/ilias"
     logfile_name: "ilias.log"
 
-  pre_tasks:
-    - name: update apt cache
-      apt: update_cache=yes
+#  pre_tasks:
+#    - name: update apt cache
+#      apt: update_cache=yes
   roles:
     - system
     - webserver
