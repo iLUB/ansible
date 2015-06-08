@@ -2,8 +2,22 @@
   template:
     src=id_rsa.j2
     dest=/home/vagrant/.ssh/id_rsa
-- name: Clone ilias rep recursively
-  git: repo={{ilias_git_repo}} accept_hostkey=true
-    dest=/vagrant/www/kyo/
-    key_file=/home/vagrant/.ssh/id_rsa
-    version={{ilias_git_version}}
+#- name: Clone ilias repo
+#  git: repo={{ilias_git_repo}} accept_hostkey=true key_file=/home/vagrant/.ssh/id_rsa
+#    dest=/vagrant/www/kyo/
+#    version={{ilias_git_version}}
+
+- name: Clone ilias/example
+  git: repo={{ example_git_repo }}
+    dest={{ example_git_destination }} accept_hostkey=true key_file=/home/vagrant/.ssh/id_rsa update=no
+  sudo: yes
+  sudo_user: vagrant
+
+- name: move cloned repo to /vagrant/www/
+  sudo: yes
+  command: mv /home/vagrant/example/ /vagrant/www/example
+
+# experienced problem: you will be only able to clone a repo when changing user explicitly to vagrant since
+# home/vagrant/.ssh/id_sa... key_file=pathToID_RSA does not do the trick
+# therefore clone it first to home directory then move it to the correct location through second task.
+# Permissions will get inherited which is what we want.
