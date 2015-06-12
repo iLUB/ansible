@@ -3,8 +3,8 @@
   apt: name=php5-xsl state=present
 - name: install gd
   apt: name=php5-gd state=present
-- name: install imagemagick
-  apt: name=imagemagick state=present
+#- name: install imagemagick
+#  apt: name=imagemagick state=present
 - name: install zip
   apt: name=zip state=present
 - name: install unzip
@@ -20,7 +20,7 @@
 - name: install ghostscript
   apt: name=ghostscript state=present
   notify:
-  - reload apache ghostscript
+  - reload apache
 - name: install java
   apt: name=openjdk-7-jre  state=present
 - name: install htmldoc
