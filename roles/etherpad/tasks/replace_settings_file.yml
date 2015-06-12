@@ -1,0 +1,9 @@
+---
+- name: Remove default settings.json
+  file:
+    path=/usr/share/etherpad-lite/settings.json
+    state=absent
+- name: Copy new settings.json from templates
+  template:
+    src=settings.json.j2
+    dest=/usr/share/etherpad-lite/settings.json

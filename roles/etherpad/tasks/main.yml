@@ -1,7 +1,8 @@
 ---
 - include: groups.yml
-- include: create_ini_file.yml
 - include: tools.yml
 - include: clone-etherpad-git.yml
+- include: create_ini_file.yml
+- include: replace_settings_file.yml
 - include: load_pad_js_example.yml
 - include: start_etherpad.yml
