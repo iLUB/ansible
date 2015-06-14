@@ -12,10 +12,20 @@
 - name: install pkg-config
   apt: name=pkg-config state=present
 - name: install build-essential
-  apt: name=build-essential
+  apt: name=build-essential state=present
+
 
 ## can be commented out while developing
 ##- name: fetch node.js from source
 ##  action: shell curl -sL https://deb.nodesource.com/setup | sudo bash -
 ##- name: install nodejs
 ##  apt: name=nodejs state=present
+
+#- name: fetch newest node.js files into repo
+#  action: shell curl -sL https://deb.nodesource.com/setup
+- name: install node.js from repository
+  apt: name=nodejs
+- name: install nodejs-legacy from repository
+  apt: name=nodejs-legacy
+- name: install npm from repository
+  apt: name=npm
