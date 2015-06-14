@@ -29,9 +29,9 @@
     log_dir: "/var/log/ilias"
     logfile_name: "ilias.log"
 
-#  pre_tasks:
-#    - name: update apt cache
-#      apt: update_cache=yes
+  pre_tasks:
+    - name: update apt cache
+      apt: update_cache=yes
   roles:
     - system
     - webserver
