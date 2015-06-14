@@ -21,7 +21,7 @@
     github_to_padjs: "raw.githubusercontent.com/iLUB/ILIAS-Etherpad-Lite-Plugin/300602ba1e12b72da6440aadf82e553d7463c07a"
 
     ilias_db_name: ilias50_innodb_empty
-    setup_hash: 16d7a4fca7442dda3ad93c9a726597e4 #password: test1234
+    setup_hash: 16d7a4fca7442dda3ad93c9a726597e4 #password: test1234vag
 
     ilias_skin: "default"
     ilias_style: "delos"
@@ -29,9 +29,9 @@
     log_dir: "/var/log/ilias"
     logfile_name: "ilias.log"
 
-#  pre_tasks:
-#    - name: update apt cache
-#      apt: update_cache=yes
+  pre_tasks:
+    - name: update apt cache
+      apt: update_cache=yes
   roles:
     - system
     - webserver
