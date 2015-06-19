@@ -29,6 +29,8 @@
     log_dir: "/var/log/ilias"
     logfile_name: "ilias.log"
 
+    etherpad_port: 9703
+
   pre_tasks:
     - name: update apt cache
       apt: update_cache=yes
