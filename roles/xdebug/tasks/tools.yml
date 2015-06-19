@@ -1,5 +1,4 @@
 ---
-- name: install php-pear
-  apt: name=php-pear state=present
-- name: install php5-dev
-  apt: name=php5-dev state=present
+- name: install xdebug
+  apt: name=php5-xdebug state=present
+
