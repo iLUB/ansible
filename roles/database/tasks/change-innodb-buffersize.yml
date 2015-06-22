@@ -1,0 +1,6 @@
+---
+- name: change the buffer pool size to 16M
+  template: src=innodb_buffersize.cnf.j2
+    dest=/etc/mysql/conf.d/innodb_buffersize.cnf
+  notify:
+    - restart mysql
