@@ -1,0 +1,15 @@
+---
+- name: copy our timezone to /etc/timezone
+  template:
+    src=timezone.j2
+    dest=/etc/timezone
+- name: set our timezone from /etc/timezone
+  action: shell dpkg-reconfigure --frontend noninteractive tzdata
+- name: copy ntpdate to /etc/cron.daily/ntpdate
+  template:
+    src=ntpdate.j2
+    dest=/etc/cron.daily/ntpdate
+- name: set permissions of ntpdate
+  file: path=/etc/cron.daily/ntpdate mode=0755
+- name: install ntp for time synchronization
+  apt: name=ntp state=present
