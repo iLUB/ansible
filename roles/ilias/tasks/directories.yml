@@ -54,3 +54,10 @@
     owner=www-data
     group=ilub
     mode=0774
+- name: create ilias-client data/lm_data
+  file:
+    path=/{{document_root}}/data/{{default_client}}/lm_data
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
