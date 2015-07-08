@@ -1,0 +1,3 @@
+---
+- include: create-xml-folder.yml
+- include: copy-xml.yml

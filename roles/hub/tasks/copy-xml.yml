@@ -1,0 +1,3 @@
+## Copy lv xml to vm
+- name: Copy KSL lv xml
+  copy: src=../../../data/ksl/{{ ksl_export_file_name }}.xml dest=/{{ ilias_name }}/kslxml/{{ ksl_export_file_name }}{{ansible_date_time['date']}}.xml

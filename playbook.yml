@@ -29,7 +29,9 @@
     log_dir: "/var/log/ilias"
     logfile_name: "ilias.log"
 
-    etherpad_port: 9703
+    etherpad_port: "9703"
+
+    ksl_export_file_name: "LmsLvExport_DE_"
 
   pre_tasks:
     - name: update apt cache
@@ -42,3 +44,4 @@
     - etherpad
     - bugeno
     - xdebug
+    - hub

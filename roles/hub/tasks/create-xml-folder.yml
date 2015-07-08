@@ -1,0 +1,7 @@
+- name: create folders to put xmls files into
+  file:
+    path=/{{ilias_name}}/kslxml
+    state=directory
+    owner=vagrant
+    group=ilub
+    mode=0775
