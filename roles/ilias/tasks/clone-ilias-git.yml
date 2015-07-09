@@ -7,11 +7,6 @@
 #    dest=/vagrant/www/kyo/
 #    version={{ilias_git_version}}
 
-- name: Clone ilias/example
-  git: repo={{ example_git_repo }}
-    dest={{ example_git_destination }} accept_hostkey=true key_file=/home/vagrant/.ssh/id_rsa update=no
-  sudo: yes
-  sudo_user: vagrant
 
 - name: move cloned repo to /vagrant/www/
   sudo: yes

@@ -10,9 +10,6 @@
 
     ilias_git_repo: "git@ilublx3.unibe.ch:ilias/ilias.git"
 
-    example_git_repo: "git@ilublx3.unibe.ch:ilias/example.git"
-    example_git_destination: "/home/vagrant/example"
-
     etherpad_git_repo: "git://github.com/ether/etherpad-lite.git"
     etherpad_destination: "/usr/share/etherpad-lite"
     ilias_git_version: "develop"
