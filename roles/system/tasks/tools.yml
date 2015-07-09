@@ -1,0 +1,7 @@
+##Required Tools
+- name: install passlib for htpasswd
+  action: apt pkg=python-passlib state=latest install_recommends=yes
+
+
+
+

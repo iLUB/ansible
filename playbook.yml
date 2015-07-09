@@ -30,6 +30,12 @@
 
     ksl_export_file_name: "LmsLvExport_DE_"
 
+    #Caching
+    cache_user_name: "cache"
+    cache_user_password: "test1234"
+    apc_cache_size: "256M"
+    opcode_cache_size: "512M"
+
   pre_tasks:
     - name: update apt cache
       apt: update_cache=yes

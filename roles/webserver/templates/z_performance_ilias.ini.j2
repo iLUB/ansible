@@ -1,9 +1,10 @@
-[xcache.admin]
-xcache.admin.enable_auth = On
-xcache.admin.user = "admin"
-xcache.admin.pass = "815e679429c517189bc5ac312774dae9"
+opcache.enable=1
+opcache.memory_consumption={{ opcode_cache_size }}
+opcache.interned_strings_buffer=32
+opcache.max_accelerated_files=5003
+opcache.revalidate_freq=1
+opcache.fast_shutdown=1
+opcache.enable_cli=1
+opcache.load_comments=1
 
-[xcache]
-xcache.size  = 1024M
-xcache.count = 4
-xcache.var_size = 128M
+apc.shm_size={{ apc_cache_size }}

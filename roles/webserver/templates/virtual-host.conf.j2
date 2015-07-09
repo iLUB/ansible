@@ -6,6 +6,13 @@
     Require all granted
   </Directory>
 
+  <Directory {{ document_root }}/cache>
+    AuthType Basic
+    AuthName "Restricted Files"
+    AuthUserFile /etc/htpasswd/.htpasswd
+    Require valid-user
+  </Directory>
+
   ErrorLog {{ log_dir }}/error.log
   CustomLog {{ log_dir }}/access.log combined
 </VirtualHost>

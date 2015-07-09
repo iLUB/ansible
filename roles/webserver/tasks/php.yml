@@ -2,6 +2,34 @@
 - name: install php
   apt: name=php5 state=present
 
+- name: install apcu
+  apt: name=php5-apcu state=present
+
+- name: create cache directory
+  file:
+    path={{ document_root }}/cache/
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774
+
+- name: create htpasswd to set limit access of cache directory
+  htpasswd: path=/etc/htpasswd/.htpasswd name={{ cache_user_name }} password={{ cache_user_password }} owner=root group=www-data mode=0640
+
+- name: copy apc.php to webroot
+  template:
+    src=apc.php.j2
+    dest={{ document_root }}/cache/apc.php
+  notify:
+    - reload apache
+
+- name: copy opcode.php to webroot
+  template:
+    src=opcode.php.j2
+    dest={{ document_root }}/cache/opcode.php
+  notify:
+    - reload apache
+
 - name: copy z_ilias.ini into mods-available
   template:
     src=z_ilias.ini.j2
