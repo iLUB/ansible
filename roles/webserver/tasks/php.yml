@@ -45,6 +45,12 @@
     - reload apache
 
 - name: copy z_mail.ini.j2 into mods-available
+  template:
+    src=z_mail.ini.j2
+    dest=/etc/php5/mods-available/z_mail.ini
+  notify:
+    - reload apache
+
 - name: make a symlink to z_ilias.ini
   file:
     src=/etc/php5/mods-available/z_ilias.ini
