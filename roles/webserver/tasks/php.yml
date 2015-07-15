@@ -77,3 +77,6 @@
   notify:
     - restart apache
 
+- name: Install php-unit
+  apt: name=phpunit state=present
+
