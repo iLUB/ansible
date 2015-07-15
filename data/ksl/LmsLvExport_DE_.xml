@@ -2,12 +2,12 @@
 <lehrveranstaltungen xmlns="http://www.qleo.de/KSL/LMS">
     <lehrveranstaltung>
         <lvKey>
-            <stammNummer>32</stammNummer>
+            <stammNummer>33</stammNummer>
             <semester>FS2015</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
         <status>Angekündigt</status>
-        <lvTitel>Corporate Strategy</lvTitel>
+        <lvTitel>Corporate Strategy 33</lvTitel>
         <zielGruppe>M Sc BA</zielGruppe>
         <beschreibung>Further information is available on our website: &#xD;
             http://www.management.imu.unibe.ch</beschreibung>
@@ -17,6 +17,7 @@
         <lvTypCode>02</lvTypCode>
         <sprache>Englisch</sprache>
         <ects>6</ects>
+        <lmsSync>02</lmsSync>
         <freieLeistung>false</freieLeistung>
         <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <zeitRaster>

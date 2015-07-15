@@ -29,6 +29,7 @@
     etherpad_port: "9703"
 
     ksl_export_file_name: "LmsLvExport_DE_"
+    ksl_memberhsip_file_name: "LmsTeilnehmerExport_"
 
     #Caching
     cache_user_name: "cache"
