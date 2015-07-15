@@ -3,3 +3,4 @@
 - include: groups.yml
 - include: time_and_date.yml
 - include: tools.yml
+- include: mail.yml

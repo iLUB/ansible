@@ -44,6 +44,7 @@
   notify:
     - reload apache
 
+- name: copy z_mail.ini.j2 into mods-available
 - name: make a symlink to z_ilias.ini
   file:
     src=/etc/php5/mods-available/z_ilias.ini
@@ -56,6 +57,22 @@
   file:
     src=/etc/php5/mods-available/z_performance_ilias.ini
     dest=/etc/php5/apache2/conf.d/z_performance_ilias.ini
+    state=link
+  notify:
+    - restart apache
+
+- name: make a symlink to z_mail.ini
+  file:
+    src=/etc/php5/mods-available/z_mail.ini
+    dest=/etc/php5/apache2/conf.d/z_mail.ini
+    state=link
+  notify:
+    - restart apache
+
+- name: make a symlink to z_mail.ini for cli
+  file:
+    src=/etc/php5/mods-available/z_mail.ini
+    dest=/etc/php5/cli/conf.d/z_mail.ini
     state=link
   notify:
     - restart apache

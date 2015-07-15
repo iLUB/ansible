@@ -1,0 +1,13 @@
+##install libsqlite3-dev for mailcatcher
+- name:  install libsqlite3-dev for mailcatcher
+  apt: name=libsqlite3-dev state=present
+
+##install ruby1.9.1-dev for mailcatcher
+- name:  install ruby1.9.1-dev for mailcatcher
+  apt: name=ruby1.9.1-dev state=present
+
+# Installs mailcatcher
+- gem: name=mailcatcher state=present
+
+# execute mailcatcher
+- shell: "if pgrep 'mailcatcher' > /dev/null; then echo 'Mailcatcher Alreay Running'; else echo 'Starting Mailcatcher';  mailcatcher --ip=0.0.0.0; fi"

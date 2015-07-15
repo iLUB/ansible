@@ -6,6 +6,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 80, host: 8081
    #Etherpad
   config.vm.network "forwarded_port", guest:9703, host: 9703
+   #Mailcatcher
+  config.vm.network "forwarded_port", guest:1080, host: 9704
 
   config.vm.synced_folder "./", "/vagrant", id: "vagrant-root",
     owner: "www-data",
