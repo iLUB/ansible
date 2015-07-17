@@ -61,3 +61,10 @@
     owner=www-data
     group=ilub
     mode=0774
+- name: create unit tests directory
+  file:
+    path=/{{ilias_name}}/unit-tests
+    state=directory
+    owner=www-data
+    group=ilub
+    mode=0774

@@ -1,0 +1,2 @@
+- name: Base Database
+  copy: src=../../../data/unit-tests/{{ ilias_db_name }}.csv dest=/{{ ilias_name }}/unit-tests/{{ ilias_db_name }}.csv
