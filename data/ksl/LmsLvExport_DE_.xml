@@ -2,15 +2,71 @@
 <lehrveranstaltungen xmlns="http://www.qleo.de/KSL/LMS">
     <lehrveranstaltung>
         <lvKey>
-            <stammNummer>33</stammNummer>
+            <stammNummer>1</stammNummer>
             <semester>FS2015</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
         <status>Angekündigt</status>
-        <lvTitel>Corporate Strategy 33</lvTitel>
-        <zielGruppe>M Sc BA</zielGruppe>
+        <lvTitel>NormalSync2StatusOk</lvTitel>
         <beschreibung>Further information is available on our website: &#xD;
             http://www.management.imu.unibe.ch</beschreibung>
+        <fachIdentifikator>4231</fachIdentifikator>
+        <lvTyp>Vorlesung</lvTyp>
+        <lmsSync>02</lmsSync>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>TestPersonMännlich1</nachName>
+            <vorName>DozentLA</vorName>
+            <anrede>Herr</anrede>
+            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonMännlich1DozentLA@unibe.ch</shibbolethId>
+            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
+            <institutKurz>Unternehmensführung</institutKurz>
+            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
+        </dozent>
+    </lehrveranstaltung>
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>2</stammNummer>
+            <semester>FS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <status>Angekündigt</status>
+        <lvTitel>NormalSync3StatusOk</lvTitel>
+        <beschreibung>Further information is available on our website: &#xD;
+            http://www.management.imu.unibe.ch</beschreibung>
+        <fachIdentifikator>4231</fachIdentifikator>
+        <lvTyp>Vorlesung</lvTyp>
+        <lmsSync>03</lmsSync>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>TestPersonMännlich1</nachName>
+            <vorName>DozentLA</vorName>
+            <anrede>Herr</anrede>
+            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonMännlich1DozentLA@unibe.ch</shibbolethId>
+            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
+            <institutKurz>Unternehmensführung</institutKurz>
+            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
+        </dozent>
+    </lehrveranstaltung>
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>1</stammNummer>
+            <semester>FS2015</semester>
+            <laufNummer>1</laufNummer>
+        </lvKey>
+        <refLvKey>
+            <stammNummer>1</stammNummer>
+            <semester>FS2015</semester>
+            <laufNummer>0</laufNummer>
+        </refLvKey>
+        <status>Angekündigt</status>
+        <lvTitel>Link to NormalSync2StatusOk</lvTitel>
+        <zielGruppe>M Sc BA</zielGruppe>
+        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
         <fach>Betriebwirtschaftslehre</fach>
         <fachIdentifikator>4231</fachIdentifikator>
         <lvTyp>Vorlesung</lvTyp>
@@ -20,372 +76,72 @@
         <lmsSync>02</lmsSync>
         <freieLeistung>false</freieLeistung>
         <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
-        <zeitRaster>
-            <wochenTag>Donnerstag</wochenTag>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <periodizitaet>01</periodizitaet>
-        </zeitRaster>
-        <einzelTermin>
-            <datum>18.09.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>25.09.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>02.10.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>09.10.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>16.10.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>23.10.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>30.10.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>06.11.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>13.11.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>20.11.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>27.11.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>04.12.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>11.12.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>18.12.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>25.12.2014</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>01.01.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>08.01.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>15.01.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>22.01.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>29.01.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>05.02.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <einzelTermin>
-            <datum>12.02.2015</datum>
-            <zeitVon>08:15</zeitVon>
-            <zeitBis>10:00</zeitBis>
-            <raum>
-                <raumnummer>A022</raumnummer>
-                <raum>Hörraum</raum>
-                <gebaeude>UniS, Schanzeneckstrasse 1</gebaeude>
-            </raum>
-        </einzelTermin>
-        <dozent>
-            <rollenTyp>DZ</rollenTyp>
-            <nachName>Baldauf</nachName>
-            <vorName>Artur</vorName>
-            <titel>Prof. Dr.</titel>
-            <anrede>Herr</anrede>
-            <email>artur.baldauf@imu.unibe.ch</email>
-            <shibbolethId>abaldauf@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>Brüsehaber</nachName>
-            <vorName>Thomas</vorName>
+            <nachName>TestPersonMännlich2</nachName>
+            <vorName>DozentLA2</vorName>
             <anrede>Herr</anrede>
-            <email>thomas.bruesehaber@imu.unibe.ch</email>
-            <shibbolethId>pesb-ccfr-dzqo-skro-wohu-hlgz-fmzp-hbsq@unibe.ch</shibbolethId>
+            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
             <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
             <institutKurz>Unternehmensführung</institutKurz>
             <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
         </dozent>
-        <dozent>
-            <rollenTyp>L2</rollenTyp>
-            <nachName>Romanova Stettler</nachName>
-            <vorName>Tatiana</vorName>
-            <anrede>Frau</anrede>
-            <email>tatiana.stettler@imu.unibe.ch</email>
-            <shibbolethId>tstettler@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-        <dozent>
-            <rollenTyp>L2</rollenTyp>
-            <nachName>Rüfenacht</nachName>
-            <vorName>Beatrice</vorName>
-            <anrede>Frau</anrede>
-            <email>beatrice.ruefenacht@imu.unibe.ch</email>
-            <shibbolethId>vurs-muxu-iklj-aeim-jbwn-fvtw-kqfy-guuz@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-        <dozent>
-            <rollenTyp>LA</rollenTyp>
-            <nachName>Wüthrich</nachName>
-            <vorName>Adrian</vorName>
-            <anrede>Herr</anrede>
-            <email>adrian.wuethrich@imu.unibe.ch</email>
-            <shibbolethId>qhkf-dwmz-idhg-nuyk-xmvo-opoj-gkwc-iepr@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-        <vorbedingungStudienstufe>MA</vorbedingungStudienstufe>
-        <lvFrist/>
     </lehrveranstaltung>
     <lehrveranstaltung>
         <lvKey>
-            <stammNummer>51</stammNummer>
-            <semester>HS2014</semester>
+            <stammNummer>3</stammNummer>
+            <semester>FS2015</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
-        <status>Freigabe Angefordert</status>
-        <lvTitel>Seminar aus Unternehmensführung</lvTitel>
-        <zielGruppe>M Sc BA</zielGruppe>
-        <learningOutcome>Die Ziele in diesem Seminar aus Unternehmensführung bestehen darin, die Teilnehmer:&#xD;
-            - mit anspruchsvoller (strategischer Management-)Literatur zu konfrontieren,&#xD;
-            - anzuregen, eingehend die Modelle/Konzepte und Methoden zu studieren,&#xD;
-            - motivieren, die facheinschlägige Literatur zu recherchieren,&#xD;
-            - anzuhalten, die jeweils konkret bearbeiteten theoretischen Inhalte auf deren praktische Relevanz zu untersuchen,&#xD;
-            - mit den Besonderheiten wissenschaftlichen Arbeitens zu konfrontieren,&#xD;
-            - bei der Verfassung der Seminararbeit zu leiten und sie dementsprechend auf die mögliche Erstellung einer Masterarbeit am Lehrstuhl vorzubereiten.</learningOutcome>
-        <fach>Betriebwirtschaftslehre</fach>
+        <kurzBezeichnung>ShortTitle Test Short Title Kurs FS2015</kurzBezeichnung>
+        <status>Angekündigt</status>
+        <lvTitel>ShortTitle Test Original Title Kurs FS2015</lvTitel>
+        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
         <fachIdentifikator>4231</fachIdentifikator>
-        <lvTyp>Seminar</lvTyp>
-        <lvTypCode>03</lvTypCode>
-        <sprache>Englisch</sprache>
-        <ects>6</ects>
+        <lvTyp>Vorlesung</lvTyp>
+        <lvTypCode>02</lvTypCode>
+        <lmsSync>02</lmsSync>
         <freieLeistung>false</freieLeistung>
-        <urlLMS>http://ilias.unibe.ch/ksl/51-HS2014-0</urlLMS>
-        <dozent>
-            <rollenTyp>DZ</rollenTyp>
-            <nachName>Baldauf</nachName>
-            <vorName>Artur</vorName>
-            <titel>Prof. Dr.</titel>
-            <anrede>Herr</anrede>
-            <email>artur.baldauf@imu.unibe.ch</email>
-            <shibbolethId>abaldauf@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>Brüsehaber</nachName>
-            <vorName>Thomas</vorName>
+            <nachName>TestPersonMännlich2</nachName>
+            <vorName>DozentLA2</vorName>
             <anrede>Herr</anrede>
-            <email>thomas.bruesehaber@imu.unibe.ch</email>
-            <shibbolethId>pesb-ccfr-dzqo-skro-wohu-hlgz-fmzp-hbsq@unibe.ch</shibbolethId>
+            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
             <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
             <institutKurz>Unternehmensführung</institutKurz>
             <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
         </dozent>
-        <dozent>
-            <rollenTyp>L2</rollenTyp>
-            <nachName>Romanova Stettler</nachName>
-            <vorName>Tatiana</vorName>
-            <anrede>Frau</anrede>
-            <email>tatiana.stettler@imu.unibe.ch</email>
-            <shibbolethId>tstettler@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-        <dozent>
-            <rollenTyp>L2</rollenTyp>
-            <nachName>Rüfenacht</nachName>
-            <vorName>Beatrice</vorName>
-            <anrede>Frau</anrede>
-            <email>beatrice.ruefenacht@imu.unibe.ch</email>
-            <shibbolethId>vurs-muxu-iklj-aeim-jbwn-fvtw-kqfy-guuz@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
+    </lehrveranstaltung>
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>4</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <kurzBezeichnung>ShortTitle Test Short Title Kurs HS2015</kurzBezeichnung>
+        <status>Angekündigt</status>
+        <lvTitel>ShortTitle Test Original Title Kurs HS2015</lvTitel>
+        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
+        <fachIdentifikator>4231</fachIdentifikator>
+        <lvTyp>Vorlesung</lvTyp>
+        <lvTypCode>02</lvTypCode>
+        <lmsSync>02</lmsSync>
+        <freieLeistung>false</freieLeistung>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>Wüthrich</nachName>
-            <vorName>Adrian</vorName>
+            <nachName>TestPersonMännlich2</nachName>
+            <vorName>DozentLA2</vorName>
             <anrede>Herr</anrede>
-            <email>adrian.wuethrich@imu.unibe.ch</email>
-            <shibbolethId>qhkf-dwmz-idhg-nuyk-xmvo-opoj-gkwc-iepr@unibe.ch</shibbolethId>
+            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
             <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
             <institutKurz>Unternehmensführung</institutKurz>
             <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
         </dozent>
-        <vorbedingungStudienstufe>MA</vorbedingungStudienstufe>
-        <lvFrist/>
     </lehrveranstaltung>
 </lehrveranstaltungen>

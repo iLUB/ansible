@@ -2,146 +2,47 @@
 <lvTeilnehmerListe xmlns="http://www.qleo.de/KSL/LMS">
     <lvTeilnehmer>
         <lvKey>
-            <stammNummer>33</stammNummer>
+            <stammNummer>1</stammNummer>
             <semester>FS2015</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
         <lmsSync>02</lmsSync>
         <teilnehmer>
-            <nachName>von Sury</nachName>
-            <vorName>Anna Asha</vorName>
-            <email>anna.vonsury@students.unibe.ch</email>
-            <shibbolethId>av10m240@unibe.ch</shibbolethId>
+            <nachName>TestPersonWeiblich1</nachName>
+            <vorName>Studentin</vorName>
+            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
             <matrikelNummer>10-103-059</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Mathier</nachName>
-            <vorName>Juliette Marie Hélène</vorName>
-            <email>juliette.mathier@students.unibe.ch</email>
-            <shibbolethId>jm02x070@unibe.ch</shibbolethId>
-            <matrikelNummer>02-213-643</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Stocker</nachName>
-            <vorName>Meret</vorName>
-            <email>meret.stocker@students.unibe.ch</email>
-            <shibbolethId>zktg-dunb-mswm-xrmv-unae-qvad-rngv-bbcn@unibe.ch</shibbolethId>
-            <matrikelNummer>11-722-014</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Bleuler</nachName>
-            <vorName>Nicole</vorName>
-            <anrede>Frau</anrede>
-            <email>nicole.bleuler@students.unibe.ch</email>
-            <shibbolethId>nb10a565@unibe.ch</shibbolethId>
-            <matrikelNummer>10-100-261</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Näf</nachName>
-            <vorName>Vanessa</vorName>
-            <email>vanessa.naef@students.unibe.ch</email>
-            <shibbolethId>mdwh-rpqy-cndv-twyj-pdsu-xhwv-spfa-jaow@unibe.ch</shibbolethId>
-            <matrikelNummer>13-133-889</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Tschumi</nachName>
-            <vorName>Anna</vorName>
-            <email>anna.tschumi@students.unibe.ch</email>
-            <shibbolethId>at06i294@unibe.ch</shibbolethId>
-            <matrikelNummer>06-643-738</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Descombes</nachName>
-            <vorName>Samira Michèle</vorName>
-            <email>samira.descombes@students.unibe.ch</email>
-            <shibbolethId>cd09w792@unibe.ch</shibbolethId>
-            <matrikelNummer>09-100-652</matrikelNummer>
-        </teilnehmer>
-        <teilnehmer>
-            <nachName>Leibundgut</nachName>
-            <vorName>Thomas Andreas</vorName>
-            <email>thomas.leibundgut@students.unibe.ch</email>
-            <shibbolethId>tl08t318@unibe.ch</shibbolethId>
-            <matrikelNummer>08-117-376</matrikelNummer>
         </teilnehmer>
     </lvTeilnehmer>
     <lvTeilnehmer>
         <lvKey>
-            <stammNummer>415881</stammNummer>
-            <semester>HS2015</semester>
+            <stammNummer>2</stammNummer>
+            <semester>FS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <lmsSync>03</lmsSync>
+        <teilnehmer>
+            <nachName>TestPersonWeiblich1</nachName>
+            <vorName>Studentin</vorName>
+            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
+            <shibbolethId>TestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-059</matrikelNummer>
+        </teilnehmer>
+    </lvTeilnehmer>
+    <lvTeilnehmer>
+        <lvKey>
+            <stammNummer>1</stammNummer>
+            <semester>FS2015</semester>
             <laufNummer>1</laufNummer>
         </lvKey>
         <lmsSync>02</lmsSync>
         <teilnehmer>
-            <nachName>Bischof</nachName>
-            <vorName>Ilana</vorName>
-            <email>ilanabischof@students.unibe.ch</email>
-            <shibbolethId>ib06o333@unibe.ch</shibbolethId>
-            <matrikelNummer>06-100-317</matrikelNummer>
+            <nachName>RefTestPersonWeiblich1</nachName>
+            <vorName>Studentin</vorName>
+            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
+            <shibbolethId>RefTestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-059</matrikelNummer>
         </teilnehmer>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416553</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416556</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416557</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416558</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416590</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416591</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416594</stammNummer>
-            <semester>FS2016</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
-    </lvTeilnehmer>
-    <lvTeilnehmer>
-        <lvKey>
-            <stammNummer>416597</stammNummer>
-            <semester>HS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <lmsSync>02</lmsSync>
     </lvTeilnehmer>
 </lvTeilnehmerListe>
