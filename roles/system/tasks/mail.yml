@@ -7,7 +7,9 @@
   apt: name=ruby1.9.1-dev state=present
 
 # Installs mailcatcher
-- gem: name=mailcatcher state=present
+- name: install mailcather
+  gem: name=mailcatcher state=present user_install=no
 
 # execute mailcatcher
-- shell: "if pgrep 'mailcatcher' > /dev/null; then echo 'Mailcatcher Alreay Running'; else echo 'Starting Mailcatcher';  mailcatcher --ip=0.0.0.0; fi"
+- name: execute mailcatcher if not running
+  shell: "if pgrep 'mailcatcher' > /dev/null; then echo 'Mailcatcher Alreay Running'; else echo 'Starting Mailcatcher';  mailcatcher --ip=0.0.0.0; fi"
