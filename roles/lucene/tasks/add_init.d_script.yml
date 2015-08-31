@@ -1,0 +1,7 @@
+---
+- name: copy ini file from template
+  template:
+    src=ilServer.j2
+    dest=/etc/init.d/ilServer
+- name: chmod 755 ini file ilServer
+  file: path=/etc/init.d/ilServer mode=0755

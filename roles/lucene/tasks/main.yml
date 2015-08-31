@@ -1,0 +1,6 @@
+---
+- include: tools.yml
+- include: add_settings_file.yml
+- include: add_init.d_script.yml
+- include: start_lucene.yml
+- include: create_index.yml

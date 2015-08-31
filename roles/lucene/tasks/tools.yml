@@ -1,0 +1,5 @@
+## Required Tools
+- name: install curl
+  apt: name=curl state=present
+- name: install php5-curl
+  apt: name=php5-curl state=present

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+JAVABIN=/usr/bin/java
+ILIASDIR=/vagrant/www    # Type in the root directory of your ILIAS installation
+IL_SERVER_INI=/vagrant/www/Services/WebServices/RPC/ilServer.ini
+
+case "$1" in
+    start)
+		echo "Starting ILIAS Java-Server"
+        $JAVABIN -Dfile.encoding=UTF-8 -jar $ILIASDIR/Services/WebServices/RPC/lib/ilServer.jar $IL_SERVER_INI start &
+		;;
+
+    stop)
+        echo "Shutting down ILIAS Java-Server"
+        $JAVABIN -jar $ILIASDIR/Services/WebServices/RPC/lib/ilServer.jar $IL_SERVER_INI stop
+        ;;
+
+    status)
+        $JAVABIN -jar $ILIASDIR/Services/WebServices/RPC/lib/ilServer.jar $IL_SERVER_INI status
+        ;;
+
+    restart)
+        $0 stop
+        sleep 2
+        $0 start
+        ;;
+
+    *)
+        echo "Usage: $0 {start|stop|status|restart}"
+        exit 1
+esac
+
+exit 0
