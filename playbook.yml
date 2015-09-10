@@ -37,16 +37,17 @@
     apc_cache_size: "256M"
     opcode_cache_size: "512M"
 
-  pre_tasks:
-    - name: update apt cache
-      apt: update_cache=yes
+#  pre_tasks:
+#    - name: update apt cache
+#      apt: update_cache=yes
   roles:
-    - system
-    - webserver
-    - database
-    - ilias
-    - etherpad
-    - bugeno
-    - xdebug
-    - hub
-    - lucene
+#    - system
+#    - webserver
+     - mariaDB
+#    - database
+#    - ilias
+#    - etherpad
+#    - bugeno
+#    - xdebug
+     - hub
+#    - lucene

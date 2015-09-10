@@ -1,0 +1,3 @@
+---
+- include: add_mariadb_repo.yml
+- include: install_mariadb.yml
