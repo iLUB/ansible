@@ -1,0 +1,5 @@
+---
+- name: Copy new ilServer.ini from templates
+  template:
+    src=ilServer.ini.j2
+    dest=/vagrant/www/Services/WebServices/RPC/ilServer.ini

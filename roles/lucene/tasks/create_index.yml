@@ -1,0 +1,3 @@
+---
+- name: create index on the current installation
+  command: java -jar /vagrant/www/Services/WebServices/RPC/lib/ilServer.jar /vagrant/www/Services/WebServices/RPC/ilServer.ini createIndex ilias3-unibe_0
