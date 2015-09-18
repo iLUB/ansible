@@ -6,11 +6,11 @@
     src=z_xdebug.ini.j2
     dest=/etc/php5/mods-available/z_xdebug.ini
   notify:
-    - reload apache
+    - restart apache2
 - name: make a symlink to z_xdebug.ini
   file:
     src=/etc/php5/mods-available/z_xdebug.ini
     dest=/etc/php5/apache2/conf.d/z_xdebug.ini
     state=link
   notify:
-    - restart apache
+    - restart apache2
