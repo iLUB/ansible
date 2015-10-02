@@ -1,5 +1,5 @@
 ---
-- name: MariaDB: update apt cache
+- name: MariaDB - update apt cache
   apt: update_cache=yes
-- name: MariaDB: install MariaDB
+- name: MariaDB - install MariaDB
   apt: name=mariadb-server state=present

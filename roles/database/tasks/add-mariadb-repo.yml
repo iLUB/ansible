@@ -1,7 +1,7 @@
 ---
-- name: MariaDB: Installing PPA on Server
+- name: MariaDB - Installing PPA on Server
   apt: name=software-properties-common state=present
-- name: MariaDB: Import the GnuPG signing key
+- name: MariaDB - Import the GnuPG signing key
   apt_key: keyserver=hkp://keyserver.ubuntu.com:80 id=0xcbcb082a1bb943db
-- name: MariaDB: Add APT repository
+- name: MariaDB - Add APT repository
   apt_repository: repo='deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu trusty main' state=present
