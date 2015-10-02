@@ -17,6 +17,7 @@
     path_to_padjs: "/usr/share/etherpad-lite/src/static/custom/pad.js"
     github_to_padjs: "raw.githubusercontent.com/iLUB/ILIAS-Etherpad-Lite-Plugin/300602ba1e12b72da6440aadf82e553d7463c07a"
 
+    #{{ ilias50_innodb_empty OR ilias50_innodb_testing}}
     ilias_db_name: ilias50_innodb_empty
     setup_hash: 16d7a4fca7442dda3ad93c9a726597e4 #password: test1234
 
@@ -37,17 +38,24 @@
     apc_cache_size: "256M"
     opcode_cache_size: "512M"
 
-#  pre_tasks:
-#    - name: update apt cache
-#      apt: update_cache=yes
+    #optional Role setting
+    mariaDB: false
+    etherpad: false
+    bugeno: false
+    xdebug: false
+    hub: false
+    lucene: false
+
+  pre_tasks:
+    - name: update apt cache
+      apt: update_cache=yes
   roles:
-#    - system
-#    - webserver
-     - mariaDB
-#    - database
-#    - ilias
-#    - etherpad
-#    - bugeno
-#    - xdebug
-     - hub
-#    - lucene
+    - system
+    - webserver
+    - database
+    - ilias
+    - {role: etherpad, when: etherpad}
+    - {role: bugeno, when: bugeno}
+    - {role: xdebug, when: xdebug}
+    - {role: hub, when: hub}
+    - {role: lucene, when: lucene}
