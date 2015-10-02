@@ -3,3 +3,7 @@
 - include: change-innodb-buffersize.yml
 - include: start-mysql.yml
 - include: permissions-mysql.yml
+- include: add-mariadb-repo.yml
+  when: mariaDB
+- include: install-mariadb.yml
+  when: mariaDB
