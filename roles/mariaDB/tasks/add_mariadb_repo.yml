@@ -1,7 +1,0 @@
----
-- name: Installing PPA on Server
-  apt: name=software-properties-common state=present
-- name: Import the GnuPG signing key
-  apt_key: keyserver=hkp://keyserver.ubuntu.com:80 id=0xcbcb082a1bb943db
-- name: Add APT repository
-  apt_repository: repo='deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu trusty main' state=present
