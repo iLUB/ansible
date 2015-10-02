@@ -1,48 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lvTeilnehmerListe xmlns="http://www.qleo.de/KSL/LMS">
+    <!-- Sollten in Kurs 1001-HS2015-0 eingeschrieben werden-->
+
+    <!-- Sollten nicht eingeschrieben werden, da Kurs nicht existiertn-->
     <lvTeilnehmer>
         <lvKey>
-            <stammNummer>1</stammNummer>
-            <semester>FS2015</semester>
+            <stammNummer>9999</stammNummer>
+            <semester>HS999</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
         <lmsSync>02</lmsSync>
         <teilnehmer>
-            <nachName>TestPersonWeiblich1</nachName>
-            <vorName>Studentin</vorName>
-            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
-            <matrikelNummer>10-103-059</matrikelNummer>
+            <nachName>Kuckuck</nachName>
+            <vorName>Nana</vorName>
+            <email>Nana.Kuckuck@students.unibe.ch</email>
+            <shibbolethId>kkkk-nnnn-ergb-owri-ecfa-eklq-segd-tcay@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-001</matrikelNummer>
+        </teilnehmer>
+        <teilnehmer>
+            <nachName>Fink</nachName>
+            <vorName>Bartholomäus</vorName>
+            <email>Bartholomäus.Fink@students.unibe.ch</email>
+            <shibbolethId>ffff-bbbb-cdff-fewg-ssfc-bcui-dcfc-zeex@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-002</matrikelNummer>
         </teilnehmer>
     </lvTeilnehmer>
+    <!-- Sollten eingeschrieben werden, da lmsSync von Kurs=2 -->
     <lvTeilnehmer>
         <lvKey>
-            <stammNummer>2</stammNummer>
-            <semester>FS2015</semester>
+            <stammNummer>10000</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <lmsSync>02</lmsSync>
+        <teilnehmer>
+            <nachName>Kuckuck</nachName>
+            <vorName>Nana</vorName>
+            <email>Nana.Kuckuck@students.unibe.ch</email>
+            <shibbolethId>kkkk-nnnn-ergb-owri-ecfa-eklq-segd-tcay@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-001</matrikelNummer>
+        </teilnehmer>
+        <teilnehmer>
+            <nachName>Fink</nachName>
+            <vorName>Bartholomäus</vorName>
+            <email>Bartholomäus.Fink@students.unibe.ch</email>
+            <shibbolethId>ffff-bbbb-cdff-fewg-ssfc-bcui-dcfc-zeex@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-002</matrikelNummer>
+        </teilnehmer>
+    </lvTeilnehmer>
+    <!-- Sollten nicht eingeschrieben werden, da lmsSync von Kurs=3 -->
+    <lvTeilnehmer>
+        <lvKey>
+            <stammNummer>1001</stammNummer>
+            <semester>FS2016</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
         <lmsSync>03</lmsSync>
         <teilnehmer>
-            <nachName>TestPersonWeiblich1</nachName>
-            <vorName>Studentin</vorName>
-            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
-            <matrikelNummer>10-103-059</matrikelNummer>
+            <nachName>Kuckuck</nachName>
+            <vorName>Nana</vorName>
+            <email>Nana.Kuckuck@students.unibe.ch</email>
+            <shibbolethId>kkkk-nnnn-ergb-owri-ecfa-eklq-segd-tcay@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-001</matrikelNummer>
+        </teilnehmer>
+        <teilnehmer>
+            <nachName>Fink</nachName>
+            <vorName>Bartholomäus</vorName>
+            <email>Bartholomäus.Fink@students.unibe.ch</email>
+            <shibbolethId>ffff-bbbb-cdff-fewg-ssfc-bcui-dcfc-zeex@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-002</matrikelNummer>
         </teilnehmer>
     </lvTeilnehmer>
+    <!-- Sollten in Kurs 1002-HS2015-0 eingeschrieben werden-->
     <lvTeilnehmer>
         <lvKey>
-            <stammNummer>1</stammNummer>
-            <semester>FS2015</semester>
+            <stammNummer>3002</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <lmsSync>02</lmsSync>
+        <teilnehmer>
+            <nachName>Fink</nachName>
+            <vorName>Bartholomäus</vorName>
+            <email>Bartholomäus.Fink@students.unibe.ch</email>
+            <shibbolethId>ffff-bbbb-cdff-fewg-ssfc-bcui-dcfc-zeex@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-002</matrikelNummer>
+        </teilnehmer>
+        <teilnehmer>
+            <nachName>Spatz</nachName>
+            <vorName>Apolonia</vorName>
+            <email>Apolonia.Spatz@students.unibe.ch</email>
+            <shibbolethId>yxcz-sdfg-ufvg-fghn-dddd-bmjd-lezv-trfx@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-003</matrikelNummer>
+        </teilnehmer>
+    </lvTeilnehmer>
+    <!-- Sollten in Kurs 1002-HS2015-0 eingeschrieben werden, da referenziert. -->
+    <lvTeilnehmer>
+        <lvKey>
+            <stammNummer>1002</stammNummer>
+            <semester>HS2015</semester>
             <laufNummer>1</laufNummer>
         </lvKey>
         <lmsSync>02</lmsSync>
         <teilnehmer>
-            <nachName>RefTestPersonWeiblich1</nachName>
-            <vorName>Studentin</vorName>
-            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
-            <shibbolethId>RefTestPersonWeiblich1Studentin@unibe.ch</shibbolethId>
-            <matrikelNummer>10-103-059</matrikelNummer>
+            <nachName>Fink</nachName>
+            <vorName>Bartholomäus</vorName>
+            <email>Bartholomäus.Fink@students.unibe.ch</email>
+            <shibbolethId>ffff-bbbb-cdff-fewg-ssfc-bcui-dcfc-zeex@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-002</matrikelNummer>
+        </teilnehmer>
+        <teilnehmer>
+            <nachName>Kuckuck</nachName>
+            <vorName>Nana</vorName>
+            <email>Nana.Kuckuck@students.unibe.ch</email>
+            <shibbolethId>kkkk-nnnn-ergb-owri-ecfa-eklq-segd-tcay@unibe.ch</shibbolethId>
+            <matrikelNummer>10-103-001</matrikelNummer>
         </teilnehmer>
     </lvTeilnehmer>
 </lvTeilnehmerListe>

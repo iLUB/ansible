@@ -1,147 +1,227 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lehrveranstaltungen xmlns="http://www.qleo.de/KSL/LMS">
+    <!-- Kurs sollte so nie geliefert werden, wenn doch sollte nicht erstellt -->
     <lehrveranstaltung>
         <lvKey>
-            <stammNummer>1</stammNummer>
-            <semester>FS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <status>Angekündigt</status>
-        <lvTitel>NormalSync2StatusOk</lvTitel>
-        <beschreibung>Further information is available on our website: &#xD;
-            http://www.management.imu.unibe.ch</beschreibung>
-        <fachIdentifikator>4231</fachIdentifikator>
-        <lvTyp>Vorlesung</lvTyp>
-        <lmsSync>02</lmsSync>
-        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
-        <dozent>
-            <rollenTyp>LA</rollenTyp>
-            <nachName>TestPersonMännlich1</nachName>
-            <vorName>DozentLA</vorName>
-            <anrede>Herr</anrede>
-            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonMännlich1DozentLA@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-    </lehrveranstaltung>
-    <lehrveranstaltung>
-        <lvKey>
-            <stammNummer>2</stammNummer>
-            <semester>FS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <status>Angekündigt</status>
-        <lvTitel>NormalSync3StatusOk</lvTitel>
-        <beschreibung>Further information is available on our website: &#xD;
-            http://www.management.imu.unibe.ch</beschreibung>
-        <fachIdentifikator>4231</fachIdentifikator>
-        <lvTyp>Vorlesung</lvTyp>
-        <lmsSync>03</lmsSync>
-        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
-        <dozent>
-            <rollenTyp>LA</rollenTyp>
-            <nachName>TestPersonMännlich1</nachName>
-            <vorName>DozentLA</vorName>
-            <anrede>Herr</anrede>
-            <email>adrian.asdfasdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonMännlich1DozentLA@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
-        </dozent>
-    </lehrveranstaltung>
-    <lehrveranstaltung>
-        <lvKey>
-            <stammNummer>1</stammNummer>
-            <semester>FS2015</semester>
+            <stammNummer>9998</stammNummer>
+            <semester>HS2015</semester>
             <laufNummer>1</laufNummer>
         </lvKey>
-        <refLvKey>
-            <stammNummer>1</stammNummer>
-            <semester>FS2015</semester>
-            <laufNummer>0</laufNummer>
-        </refLvKey>
         <status>Angekündigt</status>
-        <lvTitel>Link to NormalSync2StatusOk</lvTitel>
-        <zielGruppe>M Sc BA</zielGruppe>
-        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
-        <fach>Betriebwirtschaftslehre</fach>
-        <fachIdentifikator>4231</fachIdentifikator>
+        <lvTitel>Welten digitale Welten</lvTitel>
+        <beschreibung>Dieser Kurs bringt Ihnen die Grundlagen der Digitalen Welten bei.</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
         <lvTyp>Vorlesung</lvTyp>
-        <lvTypCode>02</lvTypCode>
-        <sprache>Englisch</sprache>
-        <ects>6</ects>
-        <lmsSync>02</lmsSync>
-        <freieLeistung>false</freieLeistung>
+        <lmsSync>01</lmsSync>
         <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>TestPersonMännlich2</nachName>
-            <vorName>DozentLA2</vorName>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
             <anrede>Herr</anrede>
-            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
         </dozent>
-    </lehrveranstaltung>
-    <lehrveranstaltung>
-        <lvKey>
-            <stammNummer>3</stammNummer>
-            <semester>FS2015</semester>
-            <laufNummer>0</laufNummer>
-        </lvKey>
-        <kurzBezeichnung>ShortTitle Test Short Title Kurs FS2015</kurzBezeichnung>
-        <status>Angekündigt</status>
-        <lvTitel>ShortTitle Test Original Title Kurs FS2015</lvTitel>
-        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
-        <fachIdentifikator>4231</fachIdentifikator>
-        <lvTyp>Vorlesung</lvTyp>
-        <lvTypCode>02</lvTypCode>
-        <lmsSync>02</lmsSync>
-        <freieLeistung>false</freieLeistung>
-        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>TestPersonMännlich2</nachName>
-            <vorName>DozentLA2</vorName>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
             <anrede>Herr</anrede>
-            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
         </dozent>
     </lehrveranstaltung>
+    <!-- Dozenten und Studenten should inscribed, since lmsSync=2 -->
     <lehrveranstaltung>
         <lvKey>
-            <stammNummer>4</stammNummer>
+            <stammNummer>10000</stammNummer>
             <semester>HS2015</semester>
             <laufNummer>0</laufNummer>
         </lvKey>
-        <kurzBezeichnung>ShortTitle Test Short Title Kurs HS2015</kurzBezeichnung>
         <status>Angekündigt</status>
-        <lvTitel>ShortTitle Test Original Title Kurs HS2015</lvTitel>
-        <beschreibung>Further information is available on our website: &#xD; http://www.management.imu.unibe.ch</beschreibung>
-        <fachIdentifikator>4231</fachIdentifikator>
+        <kurzBezeichnung>Info 1</kurzBezeichnung>
+        <beschreibung>Dieser Kurs bringt Ihnen die Grundlagen der Informatik bei.</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
         <lvTyp>Vorlesung</lvTyp>
-        <lvTypCode>02</lvTypCode>
         <lmsSync>02</lmsSync>
-        <freieLeistung>false</freieLeistung>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <!-- Dozent für Kurs 1001-HS2015-0 wird hier definiert -->
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
+            <anrede>Herr</anrede>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Max</nachName>
+            <vorName>Frisch</vorName>
+            <anrede>Herr</anrede>
+            <email>Max.Frisch@dozent.unibe.ch</email>
+            <shibbolethId>maxi-frish-asdf-ybrj-ascy-awog@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+        <!-- Should be inscribed as responsible Person -->
+        <dozent>
+            <rollenTyp>L2</rollenTyp>
+            <nachName>Timon</nachName>
+            <vorName>Amstutz</vorName>
+            <geschlecht>1</geschlecht>
+            <email>timon.amstutz@ilub.unibe.ch</email>
+            <shibbolethId>asdfasf-frish-asdf-ybrj-ascy-awog@unibe.ch</shibbolethId>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+    </lehrveranstaltung>
+    <!-- Short Title should be used for this course -->
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>1001b</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <status>Angekündigt</status>
+        <lvTitel>Welten digitale Welten</lvTitel>
+        <kurzBezeichnung>Dig. Welten</kurzBezeichnung>
+        <beschreibung>Dieser Kurs bringt Ihnen die Grundlagen der Digitalen Welten bei.</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
+        <lvTyp>Vorlesung</lvTyp>
+        <lmsSync>02</lmsSync>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <!-- Dozent für Kurs 1001-HS2015-0 wird hier definiert -->
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
+            <anrede>Herr</anrede>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Max</nachName>
+            <vorName>Frisch</vorName>
+            <anrede>Herr</anrede>
+            <email>Max.Frisch@dozent.unibe.ch</email>
+            <shibbolethId>maxi-frish-asdf-ybrj-ascy-awog@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+    </lehrveranstaltung>
+    <!-- Dozenten und Studenten should not be inscribed, since lmsSync=3 -->
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>1001</stammNummer>
+            <semester>FS2016</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <status>Angekündigt</status>
+        <lvTitel>Welten digitale Welten 2</lvTitel>
+        <beschreibung>Dieser Kurs bringt Ihnen die Grundlagen der Digitalen Welten bei.</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
+        <lvTyp>Vorlesung</lvTyp>
+        <lmsSync>03</lmsSync>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <!-- Dozent für Kurs 1001-FS2016-0 wird hier definiert -->
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
+            <anrede>Herr</anrede>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Max</nachName>
+            <vorName>Frisch</vorName>
+            <anrede>Herr</anrede>
+            <email>Max.Frisch@dozent.unibe.ch</email>
+            <shibbolethId>maxi-frish-asdf-ybrj-ascy-awog@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+    </lehrveranstaltung>
+
+    <!-- Dieser Kurs wird von 1002-HS2015-01 referenziert, Teilnehmer/Dozenten müssen übernommen werden.     -->
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>3002</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </lvKey>
+        <status>Angekündigt</status>
+        <lvTitel>Techniken Vermessungstechniken</lvTitel>
+        <beschreibung>Messen - schätzen - rechnen</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
+        <lvTyp>Praktikum</lvTyp>
+        <lmsSync>02</lmsSync>
+        <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
+        <!-- Dozent für Kurs 1002-HS2015-0 wird hier definiert -->
+        <dozent>
+            <rollenTyp>LA</rollenTyp>
+            <nachName>Hesse</nachName>
+            <vorName>Hermann</vorName>
+            <anrede>Herr</anrede>
+            <email>Hermann.Hesse@dozent.unibe.ch</email>
+            <shibbolethId>herm-hess-asdf-qwer-ybve-hrsd-ashz@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
+        </dozent>
+
+    </lehrveranstaltung>
+
+    <!-- Referenzierter Kurs     -->
+    <lehrveranstaltung>
+        <lvKey>
+            <stammNummer>1002</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>1</laufNummer>
+        </lvKey>
+        <refLvKey>
+            <stammNummer>3002</stammNummer>
+            <semester>HS2015</semester>
+            <laufNummer>0</laufNummer>
+        </refLvKey>
+        <status>Angekündigt</status>
+        <lvTitel>Techniken Vermessungstechniken (REFERENZIERT)</lvTitel>
+        <beschreibung>Messen - schätzen - rechnen</beschreibung>
+        <fachIdentifikator>5665</fachIdentifikator>
+        <lvTyp>Praktikum</lvTyp>
+        <lmsSync>02</lmsSync>
         <urlLMS>http://ilias.unibe.ch/ksl/32-FS2015-0</urlLMS>
         <dozent>
             <rollenTyp>LA</rollenTyp>
-            <nachName>TestPersonMännlich2</nachName>
-            <vorName>DozentLA2</vorName>
+            <nachName>Max</nachName>
+            <vorName>Frisch</vorName>
             <anrede>Herr</anrede>
-            <email>adrian.asdfasssdfdfasdf@imu.unibe.ch</email>
-            <shibbolethId>TestPersonMännlich2DozentLA2@unibe.ch</shibbolethId>
-            <institut>Institut für Marketing und Unternehmensführung, Unternehmensführung</institut>
-            <institutKurz>Unternehmensführung</institutKurz>
-            <fakultaet>Universität Bern, Wirtschafts- und Sozialwissenschaftliche Fakultät</fakultaet>
+            <email>Max.Frisch@dozent.unibe.ch</email>
+            <shibbolethId>maxi-frish-asdf-ybrj-ascy-awog@unibe.ch</shibbolethId>
+            <institut>Institut für Erziehungswissenschaften, Erziehungswissenschaften</institut>
+            <institutKurz>Erziehung</institutKurz>
+            <fakultaet>Universität Bern, Erzieherische Fakultät</fakultaet>
         </dozent>
     </lehrveranstaltung>
 </lehrveranstaltungen>
