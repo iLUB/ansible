@@ -8,9 +8,11 @@
     login_password={{ mysql_root_password }}
     state=present
 - name: load db-dump into database
+    # use state=import if you have an existing db-dumb you want
+    # to import into the db created above. Otherwise use state=present.
   mysql_db:
     name={{ ilias_db_name }}
     login_user=root
     login_password={{ mysql_root_password }}
-    state=present
+    state=import
     target=/tmp/{{ ilias_db_name }}.sql

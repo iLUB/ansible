@@ -1,9 +1,10 @@
 ---
-- name: Install MySQL
+- name: DB System dependencies
   apt: name={{ item }} state=present
   sudo: yes
   with_items:
-  - mysql-server
-  - libapache2-mod-auth-mysql
+  - php5-mysql
+  #This is needed by ansible
+  - python-mysqldb
   notify:
     - reload apache

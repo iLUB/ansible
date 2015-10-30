@@ -1,9 +1,12 @@
 ---
+- include: db-system-dependencies.yml
 - include: install-mysql.yml
-- include: change-innodb-buffersize.yml
-- include: start-mysql.yml
-- include: permissions-mysql.yml
+  when: not mariaDB
 - include: add-mariadb-repo.yml
   when: mariaDB
 - include: install-mariadb.yml
   when: mariaDB
+- include: change-innodb-buffersize.yml
+- include: start-mysql.yml
+- include: permissions-mysql.yml
+
