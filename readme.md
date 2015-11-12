@@ -14,9 +14,10 @@
 ## Running
 1. run 'vagrant up' inside ilias-vagrant
 2. check localhost:8080 to see if ilias install has been successful
-3. install DB through setup/setup.php
-3. reload ansible changes with 'vagrant provision'
-4. access via ssh with vagrant ssh
+3. if database's state is set to present (role:ilias -> load-db.yml) install DB through setup/setup.php
+4. if database's state is set to import (role:ilias -> load-db.yml) no further installation steps are needed
+5. reload ansible changes with 'vagrant provision'
+6. access via ssh with vagrant ssh
 
 
 ## Destroying VM
