@@ -1,10 +1,14 @@
-# Vagrant ILIAS installation Universität Bern
+# Vagrant ILIAS Installation Universität Bern
+
+
 
 ## Installation
 1. Install vagrant
 2. Install ansible
 3. create an ilias-vagrant folder
-4. "sudo git clone --recursive git@ilublx3.unibe.ch:vagrant/ilias-vagrant.git /folder"
+4. Universität Bern only: "sudo git clone --recursive git@ilublx3.unibe.ch:vagrant/ilias-vagrant.git /folder"
+   - External only: checkout vagrant non recursvie:  "sudo git clone git@ilublx3.unibe.ch:vagrant/ilias-vagrant.git /folder"
+   - External only: checkout your own custom ilias repo into the www folder.
 5. make the folder your own with "chown -R you:staff ilias-vagrant"
 6. add repo to sourcetree and checkout all the correct branches of submodules
 7. adjust port forwarding in Vagrant.file
