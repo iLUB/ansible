@@ -41,9 +41,9 @@
     #optional Role setting
     mariaDB: true
     importDB: true
-    etherpad: false
+    etherpad: true
     bugeno: false
-    xdebug: false
+    xdebug: true
     hub: false
     lucene: false
 
