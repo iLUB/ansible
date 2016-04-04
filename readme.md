@@ -30,4 +30,4 @@
 ## Destroying VM
 1. destroy with 'vagrant destroy'
 
-##Timon Amstutz und Tomasz Kolonko
+By: Timon Amstutz und Tomasz Kolonko
