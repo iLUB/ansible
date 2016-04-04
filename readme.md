@@ -16,6 +16,8 @@
 2. check localhost:8080 to see if ilias install has been successful
 3. if database's state is set to present (role:ilias -> load-db.yml) install DB through setup/setup.php
 4. if database's state is set to import (role:ilias -> load-db.yml) no further installation steps are needed
+    -> DO NOT FORGET TO SET THE DB STATE TO PRESENT AFTERWARDS. (otherwise your db will be reset with the next
+    vagrant provision command).
 5. reload ansible changes with 'vagrant provision'
 6. access via ssh with vagrant ssh
 
