@@ -39,12 +39,15 @@
     opcode_cache_size: "512M"
 
     #optional Role setting
-    mariaDB: false
+    mariaDB: true
+    importDB: true
     etherpad: false
     bugeno: false
     xdebug: false
     hub: false
     lucene: false
+
+
 
   pre_tasks:
     - name: update apt cache
