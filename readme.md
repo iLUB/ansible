@@ -22,3 +22,5 @@
 
 ## Destroying VM
 1. destroy with 'vagrant destroy'
+
+##Timon Amstutz und Thomas Kolonko
