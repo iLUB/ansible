@@ -1,7 +1,3 @@
-##Install gcc for gem
-- name:  build essential for mail
-  apt: pkg=build-essential state=installed
-
 ##Required Tools
 - name: install passlib for htpasswd
   action: apt pkg=python-passlib state=latest install_recommends=yes

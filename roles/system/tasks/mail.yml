@@ -1,13 +1,21 @@
+##Install gcc for gem
+- name:  build essential (gcc) for mail
+  apt: pkg=build-essential state=installed
+
 ##install libsqlite3-dev for mailcatcher
 - name:  install libsqlite3-dev for mailcatcher
   apt: name=libsqlite3-dev state=present
 
 ##install ruby1.9.1-dev for mailcatcher
-- name:  install ruby1.9.1-dev for mailcatcher
-  apt: name=ruby1.9.1-dev state=present
+- name:  install ruby1.9.3 for mailcatcher
+  apt: name=ruby1.9.3 state=present
+
+##install mime-types -v 2.6.2 for mailcatcher
+- name:  install mime-types -v 2.6.2 for mailcatcher
+  gem: name=mime-types state=present user_install=no version=2.6.2
 
 # Installs mailcatcher
-- name: install mailcather
+- name: install mailcatcher
   gem: name=mailcatcher state=present user_install=no
 
 # execute mailcatcher
