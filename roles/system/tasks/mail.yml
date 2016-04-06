@@ -6,9 +6,9 @@
 - name:  install libsqlite3-dev for mailcatcher
   apt: name=libsqlite3-dev state=present
 
-##install ruby1.9.1-dev for mailcatcher
-- name:  install ruby1.9.3 for mailcatcher
-  apt: name=ruby1.9.3 state=present
+##install ruby-dev for mailcatcher
+- name:  install ruby-dev for mailcatcher
+  apt: name=ruby-dev state=present
 
 ##install mime-types -v 2.6.2 for mailcatcher
 - name:  install mime-types -v 2.6.2 for mailcatcher
@@ -17,7 +17,9 @@
 # Installs mailcatcher
 - name: install mailcatcher
   gem: name=mailcatcher state=present user_install=no
+  ignore_errors: True
 
 # execute mailcatcher
 - name: execute mailcatcher if not running
   shell: "if pgrep 'mailcatcher' > /dev/null; then echo 'Mailcatcher Alreay Running'; else echo 'Starting Mailcatcher';  mailcatcher --ip=0.0.0.0; fi"
+  ignore_errors: True
